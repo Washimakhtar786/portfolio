@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects — Your Name</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <section class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="images/logo.png" alt="logo" class="logo">
+        YourName
+      </a>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+
+
+  <!-- MAIN CONTENT -->
+  <main class="section">
+
+    <!-- PROJECTS SECTION -->
+    <section class="container">
+
+      <h1>Projects</h1>
+      <p>Here are some projects with details.</p>
+
+      <section class="projects-grid">
+
+        <!-- PROJECT CARD 1 -->
+        <article class="project-card">
+          <figure>
+            <img src="images/project1.png" alt="Project One screenshot">
+          </figure>
+
+          <section class="project-body">
+            <h3>Project One</h3>
+            <p>
+              Longer project description, technologies used, links and features.
+            </p>
+
+            <nav class="project-actions">
+              <a href="#" class="btn small">Live</a>
+              <a href="#" class="btn small ghost">Repository</a>
+            </nav>
+          </section>
+        </article>
+
+
+        <!-- PROJECT CARD 2 -->
+        <article class="project-card">
+          <figure>
+            <img src="images/project2.png" alt="Project Two screenshot">
+          </figure>
+
+          <section class="project-body">
+            <h3>Project Two</h3>
+            <p>
+              Longer project description, technologies used, links and features.
+            </p>
+
+            <nav class="project-actions">
+              <a href="#" class="btn small">Live</a>
+              <a href="#" class="btn small ghost">Repository</a>
+            </nav>
+          </section>
+        </article>
+
+      </section>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <section class="container footer-inner">
+      <p>© <span id="year3"></span> Your Name</p>
+    </section>
+  </footer>
+
+
+  <script>
+    document.getElementById("year3").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+/* Additional breakpoints and adjustments */
+
+@media (max-width: 1100px){
+  .hero-title{font-size:36px}
+  .profile{border-radius:10px}
+}
+
+@media (max-width: 720px){
+  .hero-title{font-size:28px}
+  .brand-name{display:none}
+  .profile-lg{width:100%;height:auto;border-radius:12px}
+  .skill-card img{width:40px;height:60px}
+  .site-footer .footer-inner{flex-direction:column;gap:2px}
+}
