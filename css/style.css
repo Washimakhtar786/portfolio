@@ -1,3 +1,13 @@
+.site-header {
+  top: 0;
+  margin-top: 0 !important;
+}
+body, html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
 /* Increase About Section Text Size */
 .about-text {
   font-size: 20px;    /* bigger paragraph text */
